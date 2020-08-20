@@ -5,5 +5,12 @@
   "main": "index.js",
   "repository": "https://github.com/Jake-SHJ/TypeChain.git",
   "author": "jake <guswns1853@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^3.9.7"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "prestart": "tsc"
+  }
 }
